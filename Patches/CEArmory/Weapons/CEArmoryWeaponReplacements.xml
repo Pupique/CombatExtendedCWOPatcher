@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== Carl Gustaf ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_CarlGustaf"]/label</xpath>
+		<value>
+			<label>AT recoilless rifle</label>
+		</value>
+	</Operation>
+
+  <!-- ========== Kord 6P50 Machine Gun ========== -->
+
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_KordPortable"]/label</xpath>
+		<value>
+			<label>HMG</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="CE_Gun_KordPortable"]
+      /verbs/li[@Class="CombatExtended.VerbPropertiesCE"]
+      /defaultProjectile
+    </xpath>
+		<value>
+			<defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="CE_Gun_KordPortable"]
+      /comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]
+      /ammoSet
+    </xpath>
+		<value>
+			<ammoSet>Ammo145x114mm</ammoSet>
+		</value>
+	</Operation>-->
+
+  <!-- ========== LAS-40C ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_LaserCarbine"]/label</xpath>
+		<value>
+			<label>laser carbine</label>
+		</value>
+	</Operation>
+</Patch>

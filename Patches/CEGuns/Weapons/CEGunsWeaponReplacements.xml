@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== Revolver ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_Revolver"]/label</xpath>
+		<value>
+			<label>revolver</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Pistol ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_Autopistol"]/label</xpath>
+		<value>
+			<label>autopistol</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Pump Shotgun ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_PumpShotgun"]/label</xpath>
+		<value>
+			<label>pump shotgun</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Chain Shotgun ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_ChainShotgun"]/label</xpath>
+		<value>
+			<label>chain shotgun</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Bolt-action rifle ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_BoltActionRifle"]/label</xpath>
+		<value>
+			<label>bolt-action rifle</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Assault rifle ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_AssaultRifle"]/label</xpath>
+		<value>
+			<label>assault rifle</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Sniper rifle ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_SniperRifle"]/label</xpath>
+		<value>
+			<label>sniper rifle</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Machine pistol ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_MachinePistol"]/label</xpath>
+		<value>
+			<label>machine pistol</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Heavy SMG ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_HeavySMG"]/label</xpath>
+		<value>
+			<label>heavy SMG</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Incendiary launcher ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/label</xpath>
+		<value>
+			<label>incendiary launcher</label>
+		</value>
+	</Operation>
+
+	<!-- ========== LMG ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_LMG"]/label</xpath>
+		<value>
+			<label>LMG</label>
+		</value>
+	</Operation>
+
+	<!-- ========== Charge rifle ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_ChargeRifle"]/label</xpath>
+		<value>
+			<label>charge rifle</label>
+		</value>
+	</Operation>
+
+    <!-- ========== RPG-7 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_RPGSeven"]/label</xpath>
+		<value>
+			<label>rocket launcher</label>
+		</value>
+	</Operation>
+
+    <!-- ========== Milkor MGL ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MilkorMGL"]/label</xpath>
+		<value>
+			<label>multiple grenade launcher</label>
+		</value>
+	</Operation>
+
+    <!-- ========== P-6 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_ChargePistol"]/label</xpath>
+		<value>
+			<label>charge pistol</label>
+		</value>
+	</Operation>
+
+    <!-- ========== S-12 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_ChargeShotgun"]/label</xpath>
+		<value>
+			<label>charge shotgun</label>
+		</value>
+	</Operation>
+
+    <!-- ========== S-6 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_ChargeSMG"]/label</xpath>
+		<value>
+			<label>charge SMG</label>
+		</value>
+	</Operation>
+
+    <!-- ========== R-8 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_ChargeSniperRifle"]/label</xpath>
+		<value>
+			<label>charge sniper rifle</label>
+		</value>
+	</Operation>
+
+    <!-- ========== L-8 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_ChargeLMG"]/label</xpath>
+		<value>
+			<label>charge LMG</label>
+		</value>
+	</Operation>
+
+    <!-- ========== A-12 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_ChargeAMR"]/label</xpath>
+		<value>
+			<label>charge AMR</label>
+		</value>
+	</Operation>
+
+    <!-- ========== RM2 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_Flamethrower"]/label</xpath>
+		<value>
+			<label>flamethrower</label>
+		</value>
+	</Operation>
+
+    <!-- ========== M79 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_GrenadeLauncher"]/label</xpath>
+		<value>
+			<label>grenade launcher</label>
+		</value>
+	</Operation>
+
+	<!-- ========== M72 LAW ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/label</xpath>
+		<value>
+			<label>disposable rocket launcher</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeDisposableRocketLauncher"]/label</xpath>
+		<value>
+			<label>make disposable rocket launcher x5</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeDisposableRocketLauncher_x1"]/label</xpath>
+		<value>
+			<label>make disposable rocket launcher x1</label>
+		</value>
+	</Operation>
+
+</Patch>

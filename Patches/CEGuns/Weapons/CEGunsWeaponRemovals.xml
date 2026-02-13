@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== S&W Governor ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SWGovernor"]</xpath>
+	</Operation>
+
+	<!-- ========== Winchester 94 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_WinchesterNintyFour"]</xpath>
+	</Operation>
+
+	<!-- ========== USAS-12 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_USASTwelve"]</xpath>
+	</Operation>
+
+	<!-- ========== SIG MCX ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SigMCX"]</xpath>
+	</Operation>
+
+	<!-- ========== AKMS-U ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AKMSU"]</xpath>
+	</Operation>
+
+	<!-- ========== FN FAL ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_FNFAL"]</xpath>
+	</Operation>
+
+	<!-- ========== Ruger Mini-14 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MiniFourteen"]</xpath>
+	</Operation>
+
+	<!-- ========== SKS ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SKS"]</xpath>
+	</Operation>
+
+	<!-- ========== AKM ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AKM"]</xpath>
+	</Operation>
+
+	<!-- ========== SVD ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SVD"]</xpath>
+	</Operation>
+
+	<!-- ========== Hecate II ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_HecateTwo"]</xpath>
+	</Operation>
+
+	<!-- ========== PTRS-41 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_PTRS"]</xpath>
+	</Operation>
+
+	<!-- ========== M249 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MTwoFourNine"]</xpath>
+	</Operation>
+
+	<!-- ========== M60E6 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MSixty"]</xpath>
+	</Operation>
+
+	<!-- ========== RPD ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_RPD"]</xpath>
+	</Operation>
+
+	<!-- ========== PKM ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_PKM"]</xpath>
+	</Operation>
+
+</Patch>

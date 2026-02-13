@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== Gatling Gun Emplacement ========== -->
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="CE_Gun_GatlingGun"]
+      /verbs/li[@Class="CombatExtended.VerbPropertiesCE"]
+      /defaultProjectile
+    </xpath>
+		<value>
+			<defaultProjectile>Bullet_44Magnum_FMJ</defaultProjectile>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="CE_Gun_GatlingGun"]
+      /comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]
+      /ammoSet
+    </xpath>
+		<value>
+			<ammoSet>AmmoSet_44Magnum</ammoSet>
+		</value>
+	</Operation>
+
+	<!-- ========== Mk 19 Grenade Launcher Emplacement ========== -->
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Turret_MkNineteenGL"]/label</xpath>
+		<value>
+			<label>HGL emplacement</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MkNineteenGL"]/label</xpath>
+		<value>
+			<label>heavy grenade launcher</label>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Gun_MkNineteenGL"]/description</xpath>
+    <value>
+      <description>A heavy grenade launcher attached to a tripod.</description>
+    </value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="CE_Gun_MkNineteenGL"]
+      /verbs/li[@Class="CombatExtended.VerbPropertiesCE"]
+      /defaultProjectile
+    </xpath>
+		<value>
+			<defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="CE_Gun_MkNineteenGL"]
+      /comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]
+      /ammoSet
+    </xpath>
+		<value>
+			<ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
+		</value>
+	</Operation>
+
+	<!-- ========== SPG-9 Recoilless Gun Emplacement ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CE_Turret_SPGNine"]/label</xpath>
+		<value>
+			<label>rocket launcher emplacement</label>
+		</value>
+	</Operation>
+  <!--<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Turret_SPGNine"]/description</xpath>
+    <value>
+      <description>A recoilless rocket launcher attached to a tripod.</description>
+    </value>
+  </Operation>-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Gun_SPGNine"]/label</xpath>
+    <value>
+      <label>recoilless rocket launcher</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Gun_SPGNine"]/description</xpath>
+    <value>
+      <description>A recoilless rocket launcher attached to a tripod.</description>
+    </value>
+  </Operation>
+
+  <!-- ========== Vickers Machine Gun Emplacement ========== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Turret_Vickers"]/label</xpath>
+    <value>
+      <label>LMG emplacement</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Turret_Vickers"]/description</xpath>
+    <value>
+      <description>A light machine gun mounted on a tripod.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Gun_Vickers"]/label</xpath>
+    <value>
+      <label>LMG turret</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_Gun_Vickers"]/description</xpath>
+    <value>
+      <description>A light machine gun attached to a tripod.</description>
+    </value>
+  </Operation>
+</Patch>

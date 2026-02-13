@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== Assault Shield ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Apparel_AssaultShield"]</xpath>
+	</Operation>
+
+	<!-- ========== Buckler ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Apparel_Buckler"]</xpath>
+	</Operation>
+
+	<!-- ========== Pavise ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Apparel_Pavise"]</xpath>
+	</Operation>
+
+	<!-- ========== Wicker Shield ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Apparel_WickerShield"]</xpath>
+	</Operation>
+
+	<!-- ========== Composite Armor ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Apparel_CompositeArmor"]</xpath>
+	</Operation>
+
+	<!-- ========== Gorka Combat Bodysuit ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Apparel_Gorka"]</xpath>
+	</Operation>
+
+</Patch>

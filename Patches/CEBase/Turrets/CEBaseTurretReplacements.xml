@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- KPV = HMG Emplacement -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_KPV"]/label</xpath>
+    <value>
+      <label>HMG emplacement</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_KPV"]/description</xpath>
+    <value>
+      <description>A heavy machine gun mounted on a tripod.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_KPV"]/label</xpath>
+    <value>
+      <label>heavy machine gun</label>
+    </value>
+  </Operation>
+
+  <!-- M240B = MMG Emplacement -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_M240B"]/label</xpath>
+    <value>
+      <label>MMG emplacement</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_M240B"]/description</xpath>
+    <value>
+      <description>A medium machine gun mounted on a tripod.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_M240B"]/label</xpath>
+    <value>
+      <label>medium machine gun</label>
+    </value>
+  </Operation>
+
+  <!-- AGS-30 = LGL Emplacement -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_AGSThirty"]/label</xpath>
+    <value>
+      <label>LGL emplacement</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_AGSThirty"]/label</xpath>
+    <value>
+      <label>light grenade launcher</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_AGSThirty"]/description</xpath>
+    <value>
+      <description>A light grenade launcher attached to a tripod.</description>
+    </value>
+  </Operation>
+</Patch>

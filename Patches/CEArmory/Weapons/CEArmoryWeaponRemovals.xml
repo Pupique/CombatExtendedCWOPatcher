@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== AK-12 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AKTwelve"]</xpath>
+	</Operation>
+
+	<!-- ========== AK-74 + GP-25 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AK74GL"]</xpath>
+	</Operation>
+
+	<!-- ========== AKS-74U ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AKSSeventyFourU"]</xpath>
+	</Operation>
+
+	<!-- ========== American-180 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AmericanOneEighty"]</xpath>
+	</Operation>
+
+	<!-- ========== AT-4 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_ATFour"]</xpath>
+	</Operation>
+
+	<!-- ========== AVB-7.62 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_AVB"]</xpath>
+	</Operation>
+
+	<!-- ========== Browning Automatic Rifle ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_BAR"]</xpath>
+	</Operation>
+
+  <!-- ========== Boys Anti-Tank Rifle ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_BoysRifle"]</xpath>
+	</Operation>
+
+  <!-- ========== Desert Eagle ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_Deagke"]</xpath>
+	</Operation>
+
+  <!-- ========== DP-27 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_DPtwentySeven"]</xpath>
+	</Operation>
+
+  <!-- ========== FightLite MCR ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_FightLiteMCR"]</xpath>
+	</Operation>
+
+  <!-- ========== Five-seveN ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_FNFiveSeven"]</xpath>
+	</Operation>
+
+  <!-- ========== P90 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_PNinety"]</xpath>
+	</Operation>
+
+  <!-- ========== Henry Big Boy ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_BigBoy"]</xpath>
+	</Operation>
+
+  <!-- ========== Henry Side Gate ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_HenrySideGate"]</xpath>
+	</Operation>
+
+  <!-- ========== Jericho 941 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_Jericho"]</xpath>
+	</Operation>
+
+  <!-- ========== KelTec CP33 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_KelTecCPThirtyThree"]</xpath>
+	</Operation>
+
+  <!-- ========== KS-23 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_KSTwentyThree"]</xpath>
+	</Operation>
+
+  <!-- ========== Lewis Gun ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_Lewis"]</xpath>
+	</Operation>
+
+  <!-- ========== M1 Garand ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_M1Garand"]</xpath>
+	</Operation>
+
+  <!-- ========== M7 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MSeven"]</xpath>
+	</Operation>
+
+  <!-- ========== M250 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MTwoFifty"]</xpath>
+	</Operation>
+
+  <!-- ========== M1903 Springfield ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_M1903Springfield"]</xpath>
+	</Operation>
+
+  <!-- ========== M1917 Enfield ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_M1917Enfield"]</xpath>
+	</Operation>
+
+  <!-- ========== Madsen Machine Gun ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MadsenLMG"]</xpath>
+	</Operation>
+
+  <!-- ========== MG 338 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MGThreeThreeEight"]</xpath>
+	</Operation>
+
+  <!-- ========== Micro Uzi ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MicroUzi"]</xpath>
+	</Operation>
+
+  <!-- ========== Mosin-Nagant ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MosinNagant"]</xpath>
+	</Operation>
+
+  <!-- ========== MosqueFAL ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_MosqueFAL"]</xpath>
+	</Operation>
+
+  <!-- ========== RPK-16 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_RPKSixteen"]</xpath>
+	</Operation>
+
+  <!-- ========== Sawed-Off Shotgun ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SawedOff"]</xpath>
+	</Operation>
+
+  <!-- ========== SR-25 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SRTweintyFive"]</xpath>
+	</Operation>
+
+  <!-- ========== SRS ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_SRS"]</xpath>
+	</Operation>
+
+  <!-- ========== Kord 6P50 Machine Gun ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_KordPortable"]</xpath>
+	</Operation>
+
+  <!-- ========== Tac-50 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_TacFifty"]</xpath>
+	</Operation>
+
+  <!-- ========== Taurus Judge ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_TaurusJudge"]</xpath>
+	</Operation>
+
+  <!-- ========== Tavor 7 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_TavorSeven"]</xpath>
+	</Operation>
+
+  <!-- ========== Uzi ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_Uzi"]</xpath>
+	</Operation>
+
+  <!-- ========== Winchester Model 1886 ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Gun_WinchesterEightySix"]</xpath>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== Bec de Corbin ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Melee_BecDeCorbin"]</xpath>
+	</Operation>
+
+	<!-- ========== Machete ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Melee_Machete"]</xpath>
+	</Operation>
+
+	<!-- ========== Pollaxe ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Melee_Pollaxe"]</xpath>
+	</Operation>
+
+	<!-- ========== Quarterstaff ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Melee_QuarterStaff"]</xpath>
+	</Operation>
+
+  <!-- ========== Saber ========== -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="CE_Melee_Saber"]</xpath>
+	</Operation>
+  
+</Patch>
