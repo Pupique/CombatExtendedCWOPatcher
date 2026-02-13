@@ -181,10 +181,6 @@ This patcher is entirely built on whatever CE, CE Guns and CE Armory implements.
 > [!Note]
 > Should be loaded after Combat Extended, Combat Extended Guns and Combat Extended Armory.
 
-### Footnotes
-
-[^1]: Although the .44 Magnum is mostly a revolver-only caliber, I personally found it the best match with the Gatling Gun since the machine gun emplacement above it (Vickers/LMG Emplacement) uses the .303 British, which was the Gatling Gun's most likely caliber that I had idealized. In order to maintain uniqueness among the different emplacements, I downgraded the Gatling Gun to use the .44 Magnum while also expanding said caliber's usage.
-
 ### Credits
 
 All credits go to the Combat Extended team for creating the core mod itself and all the weapons that were referenced by this patcher.
@@ -196,3 +192,5 @@ Combat Extended Armory: https://github.com/CombatExtended-Continued/CombatExtend
 
 ### License
 This mod falls under the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and may only be shared or modified under the specified terms.
+
+[^1]: Although the .44 Magnum is mostly a revolver-only caliber, I personally found it the best match with the Gatling Gun since the machine gun emplacement above it (Vickers/LMG Emplacement) uses the .303 British, which was the Gatling Gun's most likely caliber that I had idealized. In order to maintain uniqueness among the different emplacements, I downgraded the Gatling Gun to use the .44 Magnum while also expanding said caliber's usage.
