@@ -82,7 +82,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="CE_Gun_SPGNine"]/label</xpath>
     <value>
-      <label>recoilless rocket launcher</label>
+      <label>mounted rocket launcher</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
