@@ -1,0 +1,7 @@
+<loadFolders>
+	<v1.6>
+		<li IfModActive="CETeam.CombatExtended">1.6/CEBase</li>
+		<li IfModActive="CETeam.CombatExtendedGuns">1.6/CEGuns</li>
+		<li IfModActive="CETeam.CombatExtendedArmory">1.6/CEArmory</li>
+	</v1.6>
+</loadFolders>
